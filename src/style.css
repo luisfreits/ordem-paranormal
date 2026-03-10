@@ -1,0 +1,75 @@
+body{
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 7, 0), rgb(0,12,0))
+}
+
+main{
+    align-items: center;
+    width: 95%;
+}
+
+header{
+    text-align: center;
+}
+
+.box img{
+    width: 50%;
+}
+
+.box {
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding-bottom: 20px;
+}
+
+.info{
+    padding-left: 12px;
+}
+
+.info h2, p{
+    font-size: 20px;
+}
+
+.info a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.elenco img{
+    width: 200px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.cards img{
+    border-radius: 60px;
+    width: 120px;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: column;
+}
+
+.elenco {
+    margin: 0 auto;
+    width: 1400px;
+}
